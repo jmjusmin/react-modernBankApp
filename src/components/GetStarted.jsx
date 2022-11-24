@@ -5,7 +5,7 @@ import { arrowUp } from "../assets";
 function GetStarted() {
   return (
     <div
-      className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}
+      className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer hover:scale-105 hover:ease-in duration-300`}
     >
       <div
         className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full`}
